@@ -43,3 +43,29 @@ figure {
 .content-section {
   padding: 0 5vi;
 }
+
+.header {
+  padding-top: 10%;
+}
+
+.header__title {
+  font-size: clamp(3.75rem, 2.6786rem + 5.3571vw, 7.5rem);
+  margin-bottom: 40px;
+}
+
+.content__title {
+  font-size: clamp(1.875rem, 1.875rem + 0vw, 1.875rem);
+  padding: 7% 0 2.5% 0;
+}
+
+.content__text-block {
+  font-size: 30px;
+}
+
+.content__text-block .content__paragraph:not(:last-child) {
+margin-bottom: 1.5em;
+}
+
+.content__paragraph a {
+  color: inherit
+}
