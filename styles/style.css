@@ -118,3 +118,21 @@ figure {
   margin-right: 1px;
   display: inline-block;
 }
+
+.content__figure {
+  margin: 7% 0;
+  position: relative;
+  left: -5vi;
+  inline-size: calc(100% + 10vi);
+}
+
+.content__picture {
+  inline-size: 100%;
+}
+
+.content__picture-caption {
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid var(--text-color);
+}
