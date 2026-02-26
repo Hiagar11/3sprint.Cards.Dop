@@ -1,0 +1,18 @@
+{
+  "name": "cards-project",
+  "version": "1.0.0",
+  "description": "A simple HTML/CSS/JS card project",
+  "private": true,
+  "scripts": {
+    "lint": "eslint **/*.{js,html}",
+    "format": "prettier --write '**/*.{js,html,css}'"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-define-config": "^2.1.0",
+    "eslint-plugin-html": "^8.1.4",
+    "eslint-plugin-prettier": "^5.5.5",
+    "prettier": "^3.8.1"
+  }
+}
