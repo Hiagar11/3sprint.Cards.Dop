@@ -31,3 +31,15 @@ li,
 figure {
   margin: 0;
 }
+
+.heading {
+  font-family: var(--accent-font);
+  font-weight: 600;
+  line-height: 90%;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.content-section {
+  padding: 0 5vi;
+}
