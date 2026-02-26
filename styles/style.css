@@ -1,9 +1,15 @@
 :root {
-  --bg-color: #171717;
-  --text-color: #b3b3b3;
-  --accent-color: tranparent;
+  --bg-color: #f3efec;
+  --text-color: #312a4e;
+  --accent-color: #ffab6b;
   --main-font: 'Raleway', sans-serif;
   --accent-font: 'STIX Two Text', serif;
+}
+
+.theme_dark {
+  --bg-color: #171717;
+  --text-color: #b3b3b3;
+  --accent-color: transparent;
 }
 
 *,
@@ -158,7 +164,7 @@ a:hover {
 .list__item::before {
   position: absolute;
   left: 15px;
-  top: 10px;
+  top: 0;
   content: '';
   width: 15px;
   height: 15px;
