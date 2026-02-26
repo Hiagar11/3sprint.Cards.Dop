@@ -14,6 +14,32 @@
   <body class="page theme_dark">
     <header class="header">
       <h1 class="heading content-section header__title">Карты подскажут</h1>
+      <nav class="header__menu content-section">
+        <div class="header__logo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="135" height="25">
+            <use href="./images/logo.svg#logo"></use>
+          </svg>
+        </div>
+        <div class="header__theme-toggler">
+          <ul class="button__list">
+            <li class="button__item">
+              <button
+                class="header__theme-button header__theme-button_type_dark"
+              >
+                Тёмная
+              </button>
+            </li>
+            <li class="button__item">
+              <button
+                class="header__theme-button header__theme-button_type_light header__theme-button_is-active"
+                disabled
+              >
+                Светлая
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <main class="content content-section">
       <h2 class="heading content__title">
@@ -117,7 +143,9 @@
       </div>
 
       <div class="content__card">
-        <h2 class="content__card-title heading">Use an <span class="colored-text">old idea</span></h2>
+        <h2 class="content__card-title heading">
+          Use an <span class="colored-text">old idea</span>
+        </h2>
         <p class="content__card-subtitle">Воспользуйтесь старой идеей</p>
       </div>
 
