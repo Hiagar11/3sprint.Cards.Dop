@@ -1,3 +1,11 @@
+:root {
+  --bg-color: #f3efec;
+  --text-color: #312a4e;
+  --accent-color: #ffab6b;
+  --main-font: 'Raleway', sans-serif;
+  --accent-font: 'STIX Two Text', serif;
+}
+
 *,
 *::before,
 *::after {
@@ -22,12 +30,4 @@ ol,
 li,
 figure {
   margin: 0;
-}
-
-:root {
-  --bg-color: #f3efec;
-  --text-color: #312a4e;
-  --accent-color: #ffab6b;
-  --main-font: 'Raleway', sans-serif;
-  --accent-font: 'STIX Two Text', serif;
 }
