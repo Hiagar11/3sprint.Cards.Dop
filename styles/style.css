@@ -63,9 +63,45 @@ figure {
 }
 
 .content__text-block .content__paragraph:not(:last-child) {
-margin-bottom: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .content__paragraph a {
-  color: inherit
+  color: inherit;
+}
+
+.content__quote {
+  font-family: var(--main-font), sans-serif;
+  inline-size: 75%;
+  font-style: italic;
+  line-height: 200%;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 1.5em;
+}
+
+.content__list {
+  list-style-type: none;
+}
+
+.list__item {
+  padding-left: 40px;
+  position: relative;
+}
+
+.list__item::before {
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  content: '';
+  width: 15px;
+  height: 15px;
+  background-image: url(../images/marker-light.svg);
+  background-size: 15px 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.list__item:not(:last-child) {
+  margin-bottom: 10px;
 }
